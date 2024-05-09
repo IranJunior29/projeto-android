@@ -34,7 +34,7 @@
         />
 
     <EditText
-        android:id="@+id/edit_email"
+        android:id="@+id/edit_email_login"
         style="@style/Edit_Text"
         android:hint="E-mail"
         android:drawableRight="@drawable/email"
@@ -46,13 +46,13 @@
         />
 
     <EditText
-        android:id="@+id/edit_senha"
+        android:id="@+id/edit_senha_login"
         style="@style/Edit_Text"
         android:hint="Senha"
         android:drawableRight="@drawable/album"
         app:layout_constraintStart_toStartOf="@+id/containercomponens"
         app:layout_constraintEnd_toEndOf="@+id/containercomponens"
-        app:layout_constraintTop_toBottomOf="@+id/edit_email"
+        app:layout_constraintTop_toBottomOf="@+id/edit_email_login"
         android:maxLength="25"
         android:inputType="textPassword"
         />
@@ -64,7 +64,7 @@
         style="@style/button"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edit_senha"
+        app:layout_constraintTop_toBottomOf="@+id/edit_senha_login"
         />
 
     <ProgressBar
